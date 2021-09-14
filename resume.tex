@@ -1,0 +1,145 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Twenty Seconds Resume/CV
+% LaTeX Template
+% Version 1.1 (8/1/17)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Carmine Spagnuolo (cspagnuolo@unisa.it) with major modifications by 
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper]{twentysecondcv} % a4paper for A4
+
+%----------------------------------------------------------------------------------------
+%	 PERSONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+% If you don't need one or more of the below, just remove the content leaving the command, e.g. \cvnumberphone{}
+
+\profilepic{profile_picture.jpeg} % Profile picture
+
+\cvname{Shawn Smith} % Your name
+\cvjobtitle{Cloud Consultant} % Job title/career
+
+\cvdate{09 July 1999} % Date of birth
+\cvaddress{2227 Barger Ct.\newline Wheaton, IL 60189} % Short address/location, use \newline if more than 1 line is required
+\cvnumberphone{+1 630 480 1482} % Phone number
+\cvsite{https://www.linkedin.com/in
+/shawnasmith88/} % Personal website
+\cvmail{shawnsmith88@protonmail.com} % Email address
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	 ABOUT ME
+%----------------------------------------------------------------------------------------
+
+\aboutme{I am a cloud consultant with experience in AWS and GCP. I have an extensive technical background with 2+ years of experience in the software field. The majority of my work has revolved around application development and modernization.}
+
+
+%----------------------------------------------------------------------------------------
+%	 SKILLS
+%----------------------------------------------------------------------------------------
+
+% Skill bar section, each skill must have a value between 0 an 6 (float)
+\skills{{AWS/4.5},{GCP/4.0},{Agile Methodologies/4.7},{REST Frameworks/4.6},{Git/4.8},{SQL/4.1},{Python/4.1},{Flask/3.9},{Java \& Kotlin/4.3},{Spring Boot/3.8}}
+
+%------------------------------------------------
+
+% Skill text section, each skill must have a value between 0 an 6
+\skillstext{{BASH/3.7},{TDD/3.5},{DevOps/3.4}}
+
+%----------------------------------------------------------------------------------------
+
+\makeprofile % Print the sidebar
+
+%----------------------------------------------------------------------------------------
+%	 INTERESTS
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+Cloud Computing especially multi-cloud and hybrid-cloud. Software Development, creating applications within the agile framework. Linux and Unix-like system operations management.
+
+%----------------------------------------------------------------------------------------
+%	 EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Professional Experience}
+
+\begin{twenty} % Environment for a list with descriptions
+	\twentyitem{Jun 2021 - \\ present}{{\normalfont Analyst, App Dev and Modernization, for Maven Wave}}{Cloud Consulting}{\emph{Designed and developed a full stack cloud native application on an agile scrum team. }}
+	\twentyitem{Mar 2019 - \\ May 2021}{Software Tester for Focused Support LLC}{Software Testing}{Worked with developers to test software for Air Force contracts. Flagship product supports >40\% of all combat MQ-9s. Verified new functionality and bug fixes, ran manual regression tests against software, wrote suites of automated tests that reduced time to conduct manual regressions and used python scripts to automate tasks.}
+\end{twenty}
+
+\begin{twenty}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects Undertaken}
+
+\begin{twentyshort} % Environment for a short list with no descriptions
+    \twentyitemshort{2021}{GCP hosted application for underwriting natural disasters}
+	\twentyitemshort{2021}{IOT, AWS hosted service for vitals - data transmission and visualization}
+	\twentyitemshort{2020}{GCP hosted application for collecting and visualizing employee skills}
+	\twentyitemshort{2020}{Modernized and migrated load testing tool to AWS ECS}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twentyshort}
+
+%----------------------------------------------------------------------------------------
+%	 INTERNSHIPS
+%----------------------------------------------------------------------------------------
+
+\section{Interships}
+
+\begin{twenty} % Environment for a short list with no descriptions
+	\twentyitem{2020}{Software Development Intern at Maven Wave}{Software Development}{Developed a cloud-based, database-driven application with GCP that pulled data from various APIs including various google apis and the netsuite openair API in order to analyze and display the data in an application.}
+	%\twentyitemshort{<dates>}{<title/description>}
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Technical Experiences}
+
+
+
+\begin{twenty} % Environment for a list with descriptions
+\twentyitem{2021}{Containerized Kubernetes Web Application}{Cloud Development}{Hosted on GCP using GKE. Worked with Kubernetes to deploy distributed web-based applications, specifically with Angular, Flask, and Postgres. Dockerized and used helm to deploy application.}
+
+\twentyitem{2021}{Serverless Stack Development}{Cloud Development}{Worked with AWS Lambda, API Gateway, DynamoDB, and Android SDK to create mobile application with serverless stack and scale-to-zero capability}
+
+\twentyitem{2020}{Selenium \& Java automated testing framework}{Software Testing}{Used Selenium to automate previously manual test steps in both a browser and electron}
+
+\end{twenty}
+
+%----------------------------------------------------------------------------------------
+%	 OTHER INFORMATION
+%----------------------------------------------------------------------------------------
+
+\section{Other information}
+
+\subsection{Certifications}
+
+\certimages{aws-certified-developer-associate.png}{aws-certified-solutions-architect-associate}{gcp-professional-cloud-developer.png}{aws-certified-cloud-practitioner.png}
+
+
+\end{document} 
