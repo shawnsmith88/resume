@@ -222,11 +222,16 @@
       \end{tabular}
 
       % about me text
+      \vspace{10pt}
       \profilesection{About}{4.3cm}
       \givenaboutme
 
       % skills with scale
+      \vspace{10pt}
+
       \profilesection{Skills}{4.5cm}
+      \vspace{5pt}
+
       \givenskill
       \giventextskill
       \noindent
