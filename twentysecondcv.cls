@@ -244,20 +244,23 @@
   \vspace{-10pt}
 }
 
-\newcommand{\certimages}[4]
+\newcommand{\certimages}[5]
 {
 
        \begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=3cm]{#1}};
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=2.7cm]{#1}};
       \end{tikzpicture}
       \begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=3cm]{#2}};
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=2.7cm]{#2}};
       \end{tikzpicture}
       \begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=3cm]{#3}};
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=2.7cm]{#3}};
       \end{tikzpicture}
       \begin{tikzpicture}[x=\imagescale,y=-\imagescale]
-          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=3cm]{#4}};
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=2.7cm]{#4}};
+      \end{tikzpicture}
+      \begin{tikzpicture}[x=\imagescale,y=-\imagescale]
+          \node[anchor=north west, inner sep=0pt, outer sep=0pt] at (0,0) {\includegraphics[width=2.7cm]{#5}};
       \end{tikzpicture}
   
 }
